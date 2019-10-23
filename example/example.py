@@ -54,7 +54,7 @@ class Device(object):
         # Pins setup
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(RED_LED_PIN,GPIO.OUT)
-        GPIO.setup(RED_LED_PIN,GPIO.OUT)
+        GPIO.setup(GREEN_LED_PIN,GPIO.OUT)
         GPIO.setup(BUTTON_PIN,GPIO.IN)
 
     def update_led_state(self):
